@@ -44,13 +44,13 @@ public class Ex1 implements Exercise {
         System.out.println("Média 2 números (3 e 4):");
         System.out.println(calc1.calcularMedia(3,4));
 
-        System.out.println("Média 3 números (3, 4 e 5):");
+        System.out.println("\nMédia 3 números (3, 4 e 5):");
         System.out.println(calc1.calcularMedia(3,4, 5));
 
-        System.out.println("Média lista (1, 2, 3, 4 e 5):");
+        System.out.println("\nMédia lista (1, 2, 3, 4 e 5):");
         System.out.println(calc1.calcularMedia(lista_exemplo));
 
-        System.out.println("Média lista interna (1, 2, 3, 4 e 5):");
+        System.out.println("\nMédia lista interna (1, 2, 3, 4 e 5):");
         System.out.println(calc2.calcularMedia());
     }
 }

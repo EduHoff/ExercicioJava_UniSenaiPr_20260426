@@ -42,7 +42,7 @@ public class Ex6 implements Exercise {
     public void run(Scanner sc) {
         System.out.println("--- Exercício 6 ---\n");
 
-         ContaBancaria c1 = new ContaBancaria("001", "Ana");
+        ContaBancaria c1 = new ContaBancaria("001", "Ana");
         ContaBancaria c2 = new ContaBancaria("002", "Carlos", "poupanca", 1000.0);
 
         System.out.println("=== Conta 1 (corrente) ===");
